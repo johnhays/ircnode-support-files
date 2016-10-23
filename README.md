@@ -17,3 +17,4 @@ Make sure ircddbgateway is running or has previously been configured and run bef
 
 **sudo systemctl enable ircnodedashboard**
 
+The dashboard should be available on the local machine at http://localhost or over the LAN at the machine's IP address.  If you need to change the port from 80 or limit it to a specific IP interface, edit webserver.js

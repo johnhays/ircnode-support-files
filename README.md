@@ -11,7 +11,7 @@ Be sure you have an opendv user and group (which should have been created when i
 
 **sudo wget https://raw.githubusercontent.com/johnhays/ircnode-support-files/master/etc/systemd/system/ircnodedashboard.service**
 
-This service file looks for node in /usr/local/bin -- edit it if yours is at another location.
+This service file looks for node in /usr/bin -- edit it if yours is at another location.
 
 Make sure ircddbgateway is running or has previously been configured and run before starting the dashboard.
 

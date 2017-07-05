@@ -6,7 +6,8 @@ After=network.target ircddbgateway.target
 User=root
 WorkingDirectory=/var/www-node/ircNodeDashboard
 EnvironmentFile=/etc/opendv/ircnodedashboard.conf
-ExecStart=/usr/local/bin/node webserver.js
+# ExecStart default, may be in /usr/local/bin
+ExecStart=/usr/bin/node webserver.js
 Restart=always
 RestartSec=10
 StandardOutput=syslog
